@@ -17,3 +17,50 @@ copyright text: #FFFFFF*/
 
 
 /*font-family: 'PT Sans', sans-serif;*/
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    color: #0B1942;
+}
+
+h2 {
+    color: white;
+    background: #0B1942;
+}
+
+nav {
+    background: #7DDFE8;
+    color: white;
+}
+
+.logo {
+    background: #F5005B;
+}
+
+.homeNavLink {
+    background: #00A5BF;
+}
+
+.calendarNavLink {
+    background: #00B7D3;
+}
+
+.joinNavLink {
+    background: #00D5E7;
+}
+
+.upNext {
+    background: #0B1942;
+}
+
+.upNext h1 {
+    color: white;
+}
+
+.immediateNextFilm {
+    background: #e2e2e2;
+}
+
+.otherNextFilms {
+    background: #e2e2e2;
+}
