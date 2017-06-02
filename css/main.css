@@ -22,6 +22,7 @@ body {
     font-family: 'PT Sans', sans-serif;
     color: #0B1942;
     margin: 0;
+    max-width: 100vw;
 }
 
 h2 {
@@ -70,8 +71,23 @@ header {
     color: white;
 }
 
+.nextFilmBlock {
+    padding: 0 1.25rem 1.5rem 1.25rem;
+}
+
 .immediateNextFilm {
     background: #e2e2e2;
+    padding: 1.25rem;
+    display: flex;
+}
+
+.immediateNextFilmImage {
+    width: 45%;
+    height: 0%;
+}
+
+.immediateNextFilmText {
+    padding-left: 1.25rem;
 }
 
 .filmDiscussionPoints li {
@@ -80,4 +96,20 @@ header {
 
 .otherNextFilms {
     background: #e2e2e2;
+    margin: 1.25rem 0;
+    padding: .625rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nextFilmItem {
+    flex: 1 40%;
+    margin: .625rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.nextFilmImage {
+    max-width: 100%;
+    height: auto;
 }
