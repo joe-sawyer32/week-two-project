@@ -21,6 +21,7 @@ copyright text: #FFFFFF*/
 body {
     font-family: 'PT Sans', sans-serif;
     color: #0B1942;
+    margin: 0;
 }
 
 h2 {
@@ -28,13 +29,27 @@ h2 {
     background: #0B1942;
 }
 
-nav {
-    background: #7DDFE8;
-    color: white;
+header {
+    display: flex;
 }
 
 .logo {
     background: #F5005B;
+    flex: 4;
+}
+
+.navBar {
+    background: #7DDFE8;
+    color: white;
+    flex: 10;
+}
+
+.navLinks {
+    padding: 0;
+}
+
+.navLinks li {
+    list-style-type: none;
 }
 
 .homeNavLink {
@@ -59,6 +74,10 @@ nav {
 
 .immediateNextFilm {
     background: #e2e2e2;
+}
+
+.filmDiscussionPoints li {
+    list-style-type: circle;
 }
 
 .otherNextFilms {
