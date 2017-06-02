@@ -82,11 +82,16 @@ header {
 }
 
 .immediateNextFilmImage {
-    width: 45%;
-    height: 0%;
+    flex: 1 40%;
+}
+
+#immediateNextImage {
+    max-width: 100%;
+    height: auto;
 }
 
 .immediateNextFilmText {
+    flex: 1 40%;
     padding-left: 1.25rem;
 }
 
