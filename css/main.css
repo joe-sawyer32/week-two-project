@@ -35,13 +35,11 @@ header {
 
 .logo {
     background: #F5005B;
-    flex: 4;
 }
 
 .navBar {
     background: #7DDFE8;
     color: white;
-    flex: 10;
 }
 
 .navLinks {
