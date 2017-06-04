@@ -20,14 +20,17 @@ copyright text: #FFFFFF*/
 
 body {
     font-family: 'PT Sans', sans-serif;
+    font-size: .75rem;
     color: #0B1942;
     margin: 0;
+    line-height: 1.4;
     max-width: 100vw;
 }
 
 h2 {
     color: white;
     background: #0B1942;
+    padding-left: 1rem;
 }
 
 header {
@@ -55,9 +58,12 @@ header .navBar {
     flex: 13;
 }
 
+ul {
+    padding: inherit;
+}
+
 .navLinks {
     margin: 0;
-    padding: 0;
     height: 100%;
 }
 
@@ -85,24 +91,23 @@ header .navLinks li {
 }
 
 .getInvolved {
-    padding: 1.75rem;
+    padding: 1.5rem;
 }
 
-.getInvolved h1 {
+h1 {
     margin: 0;
     padding-top: 0.5rem;
 }
 
 .upNext {
     background: #0B1942;
+    padding: 0 1.25rem 1.5rem 1.25rem;
 }
 
 .upNext h1 {
     color: white;
-}
-
-.nextFilmBlock {
-    padding: 0 1.25rem 1.5rem 1.25rem;
+    font-size: 2rem;
+    padding: 1rem 1.25rem;
 }
 
 .immediateNextFilm {
@@ -123,6 +128,27 @@ header .navLinks li {
 .immediateNextFilmText {
     flex: 1 40%;
     padding-left: 1.25rem;
+}
+
+.nextFilmLink {
+    font-size: 1.25rem;
+}
+
+.upNext a, .nextFilmLink {
+    display: inline-block;
+    margin-top: .5rem;
+}
+
+.dateBlock {
+    margin-top: .25rem;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.divider {
+    margin: .75rem 0;
 }
 
 .filmDiscussionPoints li {
@@ -148,11 +174,6 @@ header .navLinks li {
     max-width: 100%;
     height: auto;
 }
-
-
-/*footer .navBar {
-    flex: 3;
-}*/
 
 footer {
     display: flex;
