@@ -15,184 +15,193 @@ calendar highlighted day: #F5005B
 button background: #F5005B
 copyright text: #FFFFFF*/
 
-
 /*font-family: 'PT Sans', sans-serif;*/
 
 body {
-    font-family: 'PT Sans', sans-serif;
-    font-size: .75rem;
-    color: #0B1942;
-    margin: 0;
-    line-height: 1.4;
-    max-width: 100vw;
+  font-family: 'PT Sans', sans-serif;
+  font-size: .75rem;
+  color: #0B1942;
+  margin: 0;
+  line-height: 1.4;
+  max-width: 100vw;
 }
 
-h2 {
-    color: white;
-    background: #0B1942;
-    padding-left: 1rem;
+.getInvolved h2 {
+  color: white;
+  background: #0B1942;
+  padding-left: 1rem;
 }
 
 header {
-    display: flex;
+  display: flex;
 }
 
 .logo {
-    padding: .75rem;
-    background: #F5005B;
-    flex: 4;
+  padding: .75rem;
+  background: #F5005B;
+  flex: 4;
 }
 
 .logoImage {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .navBar {
-    background: #7DDFE8;
-    color: white;
-    text-align: center;
+  background: #7DDFE8;
+  color: white;
+  text-align: center;
 }
 
 header .navBar {
-    flex: 13;
+  flex: 13;
 }
 
 ul {
-    padding: inherit;
+  padding: inherit;
 }
 
 .navLinks {
-    margin: 0;
-    height: 100%;
+  margin: 0;
+  height: 100%;
 }
 
 .navLinks li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 header .navLinks li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 33.33%;
 }
 
 .homeNavLink {
-    background: #00A5BF;
+  background: #00A5BF;
 }
 
 .calendarNavLink {
-    background: #00B7D3;
+  background: #00B7D3;
 }
 
 .joinNavLink {
-    background: #00D5E7;
+  background: #00D5E7;
 }
 
 .getInvolved {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
 h1 {
-    margin: 0;
-    padding-top: 0.5rem;
+  margin: 0;
+  padding-top: 0.5rem;
 }
 
 .upNext {
-    background: #0B1942;
-    padding: 0 1.25rem 1.5rem 1.25rem;
+  background: #0B1942;
+  padding: 0 1.25rem 1.5rem 1.25rem;
 }
 
 .upNext h1 {
-    color: white;
-    font-size: 2rem;
-    padding: 1rem 1.25rem;
+  color: white;
+  font-size: 2rem;
+  padding: 1rem 1.25rem;
+}
+
+.immediateNextFilm h2 {
+  margin: 0;
 }
 
 .immediateNextFilm {
-    background: #e2e2e2;
-    padding: 1.25rem;
-    display: flex;
+  background: #e2e2e2;
+  padding: 1.25rem;
+  display: flex;
 }
 
 .immediateNextFilmImage {
-    flex: 1 40%;
+  max-width: 50%;
 }
 
 #immediateNextImage {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .immediateNextFilmText {
-    flex: 1 40%;
-    padding-left: 1.25rem;
+  flex: 1 40%;
+  padding-left: 1.25rem;
 }
 
-.nextFilmLink {
-    font-size: 1.25rem;
-}
+/*.nextFilmLink {
+    ba
+}*/
 
-.upNext a, .nextFilmLink {
-    display: inline-block;
-    margin-top: .5rem;
-    color: #00B7D3;
+.upNext a {
+  display: inline-block;
+  margin-top: .5rem;
+  color: #00B7D3;
 }
 
 .dateBlock {
-    margin-top: .25rem;
+  margin-top: .25rem;
 }
 
 .date {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .divider {
-    margin: .75rem 0;
+  margin: .75rem 0;
 }
 
 .filmDiscussionPoints li {
-    list-style-type: circle;
+  list-style-type: circle;
 }
 
 .otherNextFilms {
-    background: #e2e2e2;
-    margin: 1.25rem 0;
-    padding: .625rem;
-    display: flex;
-    flex-wrap: wrap;
+  background: #e2e2e2;
+  margin: 1.25rem 0;
+  padding: .625rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .nextFilmItem {
-    flex: 1 40%;
-    margin: .625rem;
-    display: flex;
-    flex-direction: column;
+  flex: 1 40%;
+  margin: .625rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .nextFilmImage {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 footer {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 footer .navBar {
-    flex: 1 100%;
+  flex: 1 100%;
 }
 
 footer .navLinks li {
-    padding: .75rem;
+  padding: .75rem;
 }
 
 .copyright {
-    background: #7DDFE8;
-    color: white;
-    text-align: center;
-    flex: 1;
-    padding: 2rem;
+  background: #7DDFE8;
+  color: white;
+  text-align: center;
+  flex: 1;
+  padding: 2rem;
+}
+
+@media screen and (min-width: 545px) {
+  body {
+    font-size: 1.25rem;
+  }
 }
