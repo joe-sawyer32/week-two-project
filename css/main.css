@@ -113,13 +113,13 @@ h1 {
 
 .upNext {
   background: #0B1942;
-  padding: 0 1.25rem 1.5rem 1.25rem;
+  padding-bottom: 1.5rem;
 }
 
 .upNext h1 {
   color: white;
   font-size: 2rem;
-  padding: 1rem 1.25rem;
+  padding: 1rem 2.5rem;
 }
 
 .immediateNextFilm h2 {
@@ -128,6 +128,7 @@ h1 {
 
 .immediateNextFilm {
   background: #e2e2e2;
+  margin: 0 1.25rem;
   padding: 1.25rem;
   display: flex;
 }
@@ -174,7 +175,7 @@ h1 {
 
 .otherNextFilms {
   background: #e2e2e2;
-  margin: 1.25rem 0;
+  margin: 1.25rem;
   padding: .625rem;
   display: flex;
   flex-wrap: wrap;
@@ -253,5 +254,25 @@ footer .navBar {
   .copyright {
     padding: 0 1rem;
     justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    font-size: 1.25rem;
+  }
+
+  .nextFilmBlock {
+    display: flex;
+  }
+
+  .immediateNextFilm {
+    flex: 1 40%;
+  }
+
+  .otherNextFilms {
+    margin-top: 0;
+    flex: 1 40%;
+    flex-wrap: wrap;
   }
 }
