@@ -17,6 +17,32 @@ copyright text: #FFFFFF*/
 
 /*font-family: 'PT Sans', sans-serif;*/
 
+.joinClub {
+  padding: 1rem;
+}
+
+h1 {
+  padding: 1.5rem 0;
+}
+
+#name, #email, .password, #additionalIn {
+  display: inline-block;
+  border: 1px solid #DFDFDF;
+}
+
+.genreOptions {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#genresLabel {
+  flex: 1 100%;
+}
+
+.genre {
+  flex: 1 100%;
+}
+
 @media screen and (min-width: 545px) {
 }
 

@@ -24,9 +24,47 @@
             </ul>
         </nav>
     </header>
-
-
-
+    <div class="joinClub">
+        <h1>Join Film Club</h1>
+        <form action="">
+            <div class="profilePicBlock">
+                <label for="profImage">profile picture</label> <br>
+                <input type="file" name="profImage" id="profImage">
+                <div>
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="nameAndEmail">
+                <label for="name">name</label> <br>
+                <input type="text" name="name" id="name"> <br>
+                <label for="email">email</label> <br>
+                <input type="email" name="email" id="email"> <br>
+            </div>
+            <div class="passwords">
+                <label for="firstPass">password</label> <br>
+                <input type="password" name="firstPass" class="password" id="firstPass"> <br>
+                <label for="confirmPass">confirm password</label> <br>
+                <input type="password" name="confirmPass" class="password" id="confirmPass"> <br>
+            </div>
+            <div class="genreOptions">
+                <span id="genresLabel">Which genres are you interested in?</span> <br>
+                <input type="checkbox" class="genre" name="actionSelect">action
+                <input type="checkbox" class="genre" name="adventureSelect">adventure
+                <input type="checkbox" class="genre" name="comedySelect">comedy
+                <input type="checkbox" class="genre" name="dramaSelect">drama
+                <input type="checkbox" class="genre" name="fantasySelect">fantasy
+                <input type="checkbox" class="genre" name="historicalSelect">historical
+                <input type="checkbox" class="genre" name="horrorSelect">horror
+                <input type="checkbox" class="genre" name="mysterySelect">mystery
+                <input type="checkbox" class="genre" name="romanceSelect">romance
+                <input type="checkbox" class="genre" name="science fictionSelect">science fiction
+                <input type="checkbox" class="genre" name="westernSelect">western
+            </div>
+            <label for="additionalIn">Additional input</label> <br>
+            <input type="textarea" name="additionalIn" id="additionalIn"> <br>
+            <button id="join">Join Film Club</button>
+        </form>
+    </div>
     <footer>
         <nav class="navBar">
             <ul class="navLinks">
