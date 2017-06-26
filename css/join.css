@@ -18,15 +18,36 @@ copyright text: #FFFFFF*/
 /*font-family: 'PT Sans', sans-serif;*/
 
 .joinClub {
-  padding: 1rem;
+  padding: 0 1rem 3rem 1rem;
 }
 
 h1 {
   padding: 1.5rem 0;
 }
 
-#name, #email, .password, #additionalIn {
-  display: inline-block;
+.profilePicWrapper {
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.profilePicWrapper img {
+  max-width: 100%;
+  border-radius: 100%;
+}
+
+.nameAndEmail, .passwords {
+}
+
+.name, .email, .password {
+  padding: 0.25rem 0;
+}
+
+.additionalIn {
+  padding: 1rem 0;
+}
+
+#name, #email, #firstPass, #confirmPass, #additionalIn {
+  font-size: 1.25rem;
+  width: 100%;
   border: 1px solid #DFDFDF;
 }
 
@@ -36,15 +57,33 @@ h1 {
 }
 
 #genresLabel {
+  padding: 0.75rem 0;
   flex: 1 100%;
 }
 
 .genre {
+  padding: 0.5rem 0;
   flex: 1 100%;
+  box-sizing: border-box;
+}
+
+.genre input, .genre label {
+  vertical-align: middle;
+}
+
+#join {
+  padding: 1rem;
+  background: #F5005B;
+  color: #FFFFFF;
+  border: none;
 }
 
 @media screen and (min-width: 545px) {
+  .checkbox {
+  }
 }
 
 @media screen and (min-width: 769px) {
+  .checkbox {
+  }
 }
