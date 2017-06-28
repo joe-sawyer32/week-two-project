@@ -137,6 +137,7 @@ copyright text: #FFFFFF*/
 
   .immediateNextFilm {
     flex: 1 40%;
+    align-self: flex-start;
   }
 
   .otherNextFilms {

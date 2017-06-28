@@ -76,6 +76,7 @@ h1 {
   background: #F5005B;
   color: #FFFFFF;
   border: none;
+  font-family: 'PT Sans', sans-serif;
 }
 
 @media screen and (min-width: 545px) {
@@ -100,9 +101,39 @@ h1 {
   .genre {
     flex: 1 50%;
   }
+
+  #join {
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (min-width: 769px) {
-  .checkbox {
+  .basicInfo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .profilePicBlock, .nameAndEmail, .passwords {
+    flex: 1 33%;
+  }
+
+  .nameAndEmail {
+    padding-right: 1rem;
+  }
+
+  #name, #email, #firstPass, #confirmPass {
+    width: 100%;
+  }
+
+  .genre {
+    flex: 1 33%;
+  }
+
+  .additionalIn {
+    width: 67%;
+  }
+
+  #join {
+    font-size: 1.25rem;
   }
 }
