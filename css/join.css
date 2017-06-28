@@ -16,6 +16,9 @@ button background: #F5005B
 copyright text: #FFFFFF*/
 
 /*font-family: 'PT Sans', sans-serif;*/
+* {
+  box-sizing: border-box;
+}
 
 .joinClub {
   padding: 0 1rem 3rem 1rem;
@@ -32,9 +35,6 @@ h1 {
 .profilePicWrapper img {
   max-width: 100%;
   border-radius: 100%;
-}
-
-.nameAndEmail, .passwords {
 }
 
 .name, .email, .password {
@@ -79,7 +79,26 @@ h1 {
 }
 
 @media screen and (min-width: 545px) {
-  .checkbox {
+  .basicInfo {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .profilePicBlock {
+    width: 50%;
+    float: left;
+  }
+
+  #name, #email, #firstPass, #confirmPass {
+    width: 50%;
+  }
+
+  .nameAndEmail {
+    padding-bottom: 2rem;
+  }
+
+  .genre {
+    flex: 1 50%;
   }
 }
 
