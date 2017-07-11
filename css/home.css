@@ -1,0 +1,148 @@
+/*text: #0B1942
+inline link: #00B7D3
+h2 background: #0B1942
+h2 color: #FFFFFF
+logo background: #F5005B
+navigation background: #7DDFE8
+navigation link color: #FFFFFF
+"Home" nav link background: #00A5BF
+"Calendar" nav link background: #00B7D3
+"Join" nav link background: #00D5E7
+"Up Next" background: #0B1942
+"Up Next" card background #E2E2E2
+calendar background and treatments: #0B1942
+calendar highlighted day: #F5005B
+button background: #F5005B
+copyright text: #FFFFFF*/
+
+/*font-family: 'PT Sans', sans-serif;*/
+
+.getInvolved h2 {
+  color: white;
+  background: #0B1942;
+  margin: 0;
+  padding: .25rem 1rem;
+}
+
+.getInvolved {
+  padding-bottom: .75rem;
+}
+
+.subsection {
+  padding: 0 1.5rem .5rem 1.5rem;
+}
+
+.upNext {
+  background: #0B1942;
+  padding-bottom: 1.5rem;
+}
+
+.upNext h1 {
+  color: white;
+  font-size: 2rem;
+  padding: 1rem 2.5rem;
+}
+
+.immediateNextFilm h2 {
+  margin: 0;
+}
+
+.immediateNextFilm {
+  background: #e2e2e2;
+  margin: 0 1.25rem;
+  padding: 1.25rem;
+  display: flex;
+}
+
+.immediateNextFilmImage {
+  max-width: 50%;
+}
+
+#immediateNextImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.immediateNextFilmText {
+  flex: 1 40%;
+  padding-left: 1.25rem;
+}
+
+.upNext a {
+  display: inline-block;
+  margin-top: .5rem;
+  color: #00B7D3;
+}
+
+.dateBlock {
+  margin-top: .25rem;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.divider {
+  margin: .75rem 0;
+}
+
+.discussionPoints {
+  font-weight: bold;
+}
+
+.filmDiscussionPoints li {
+  list-style-type: circle;
+}
+
+.otherNextFilms {
+  background: #e2e2e2;
+  margin: 1.25rem;
+  padding: .625rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nextFilmItem {
+  flex: 1 40%;
+  margin: .625rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.nextFilmImage {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 545px) {
+  .getInvolvedText {
+    display: flex;
+    padding: 0 .5rem;
+  }
+
+  .subsection {
+    flex: 1;
+    padding: 0 1rem;
+  }
+
+  .otherNextFilms {
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .nextFilmBlock {
+    display: flex;
+  }
+
+  .immediateNextFilm {
+    flex: 1 40%;
+    align-self: flex-start;
+  }
+
+  .otherNextFilms {
+    margin-top: 0;
+    flex: 1 40%;
+    flex-wrap: wrap;
+  }
+}

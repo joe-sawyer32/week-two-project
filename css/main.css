@@ -1,0 +1,155 @@
+/*text: #0B1942
+inline link: #00B7D3
+h2 background: #0B1942
+h2 color: #FFFFFF
+logo background: #F5005B
+navigation background: #7DDFE8
+navigation link color: #FFFFFF
+"Home" nav link background: #00A5BF
+"Calendar" nav link background: #00B7D3
+"Join" nav link background: #00D5E7
+"Up Next" background: #0B1942
+"Up Next" card background #E2E2E2
+calendar background and treatments: #0B1942
+calendar highlighted day: #F5005B
+button background: #F5005B
+copyright text: #FFFFFF*/
+
+/*font-family: 'PT Sans', sans-serif;*/
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: .75rem;
+  color: #0B1942;
+  margin: 0;
+  line-height: 1.4;
+  max-width: 100vw;
+}
+
+a, input, label, textarea, button {
+  cursor: pointer;
+}
+
+header, footer {
+  display: flex;
+}
+
+header {
+  height: 115px;
+}
+
+.logo {
+  padding: .5rem;
+  background: #F5005B;
+  width: 85px;
+}
+
+.logoImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.navBar {
+  background: #7DDFE8;
+  color: white;
+  height: 115px;
+}
+
+header .navBar {
+  flex: 1;
+}
+
+ul {
+  padding: inherit;
+}
+
+.navLinks {
+  margin: 0;
+  height: 100%;
+}
+
+.navLinks li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 33.33%;
+  list-style-type: none;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.homeNavLink {
+  background: #00A5BF;
+}
+
+.calendarNavLink {
+  background: #00B7D3;
+}
+
+.joinNavLink {
+  background: #00D5E7;
+}
+
+h1 {
+  margin: 0;
+  padding: 1.75rem 1.5rem 1rem 1.5rem;
+}
+
+footer {
+  flex-wrap: wrap;
+}
+
+footer .navBar {
+  flex: 1 100%;
+}
+
+.copyright {
+  background: #7DDFE8;
+  color: white;
+  flex: 1 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 545px) {
+  body {
+    font-size: 1.1rem;
+  }
+
+  .navLinks {
+    display: flex;
+  }
+
+  .navLinks li {
+    width: 100px;
+  }
+
+  footer {
+    height: 115px;
+    flex-wrap: nowrap;
+  }
+
+  footer .navBar {
+    flex: 0;
+  }
+
+  footer .navLinks li {
+    padding: 0;
+  }
+
+  .copyright {
+    padding: 0 1rem;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    font-size: 1.25rem;
+  }
+}
